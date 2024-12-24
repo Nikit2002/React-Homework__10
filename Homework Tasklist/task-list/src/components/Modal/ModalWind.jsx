@@ -1,11 +1,8 @@
 import './ModalWind.css';
 
 export default function ModalWind({ call, setIsModal, onRemoveTask }) {
-    if (!call) return null;
-
-  //   const closeModalWind = (e) => {
-  //     if (e.target.className === 'modal') onDestroy();
-  //   };
+  
+  if (!call) return null;
 
   return (
     <div className="custom-modal">
